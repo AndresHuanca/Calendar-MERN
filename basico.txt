@@ -1,0 +1,31 @@
+crea package json
+npm init -y 
+
+Para iniciar la aplicación
+npm run dev
+
+Instalar express
+npm i express
+
+Instalar dontenv
+npm i dotenv
+
+Instalar express-validator
+npm i express-validator (Ver documentación)
+
+APRENDER MONGODB Y MOONGOSE CON IA (IMP)
+
+Instalar moongose
+npm i moongose
+
+Instalar para encriptacion de password
+npm i bcryptjs
+
+Instalar  JWT
+npm i jsonwebtoken
+
+Instalar Coors
+npm i cors
+
+Instalar moment-para hacer validacion de fechas
+npm i moment
