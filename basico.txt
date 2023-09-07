@@ -29,3 +29,9 @@ npm i cors
 
 Instalar moment-para hacer validacion de fechas
 npm i moment
+
+Para producción
+verifica si esta listo 
+npm start
+
+configurar para el 404

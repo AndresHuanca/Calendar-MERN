@@ -24,6 +24,11 @@ app.use( express.json() );
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/events', require('./routes/events'));
 
+// para error de 404
+app.get('*', (req, res) => {
+    res.sendFile( __dirname + '/public/index.html');
+})
+
 // Escuchar peticiones
 app.listen( process.env.PORT, () => {
     console.log(`Server online ${ process.env.PORT }`);
